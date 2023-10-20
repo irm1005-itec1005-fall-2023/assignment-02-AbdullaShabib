@@ -1,19 +1,87 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: gainsboro;
+  color: darkslategrey;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+header {
+  background-color: blanchedalmond;
+  color: black;
   text-align: center;
-  color: #023047;
+  padding: 20px;
+  
 }
+ nav ul li {
+  display: grid;
+  margin-right: 10px;
+  text-decoration: none ;
+
+}
+
+
+.Skills- {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #eaf4f4;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #7a053a;
+  border-radius: 30px;
+}
+.Work-experience{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #eaf4f4;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #7a053a;
+  border-radius: 30px;
+}
+
+ .Education- {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #eaf4f4;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #7a053a;
+  border-radius: 30px;
+}
+
+.About-me {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #eaf4f4;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #7a053a;
+  border-radius: 30px;
+}
+
+.Contact-Information{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: #eaf4f4;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #7a053a;
+  border-radius: 30px;
+}
+
+
+main {
+  margin: 5px;
+  padding: 15px;
+}
+
+section {
+  margin: 2rem;
+}
+
+footer {
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+
